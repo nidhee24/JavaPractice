@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+import java.util.List;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> countries = new LinkedList<>();
+		countries.add("India");
+		countries.add("Canada");
+		countries.add("USA");
+		countries.add("Russia");
+	}
+
+}

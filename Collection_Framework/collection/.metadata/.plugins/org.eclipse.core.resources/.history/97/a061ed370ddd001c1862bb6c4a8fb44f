@@ -1,0 +1,43 @@
+import java.util.ArrayList;
+class intWrapper{
+	public int intValue;
+
+	public intWrapper(int intValue) {
+		this.intValue = intValue;
+	}
+
+	public int getIntValue() {
+		return intValue;
+	}
+
+	public void setIntValue(int intValue) {
+		this.intValue = intValue;
+	}
+		
+}
+public class App {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<intWrapper> studentNumbers = new ArrayList<>();
+		studentNumbers.add(new intWrapper(12)); // boxing
+		
+		ArrayList<Integer> snumber = new ArrayList<>();
+		snumber.add(10); //autoboxing
+		
+		System.out.println(studentNumbers.get(0).getIntValue()); //unboxing - convert obj to primitive
+	
+		
+		ArrayList<Double> demoList = new ArrayList<>();
+		demoList.add(12.01);
+		demoList.add(new Double(25.2));
+		demoList.add(Double.valueOf(30.3)); // this will be work in background when we do autoboxing
+		
+		System.out.println(demoList.get(0).doubleValue()); // unboxing in background
+		
+	
+	}
+
+}

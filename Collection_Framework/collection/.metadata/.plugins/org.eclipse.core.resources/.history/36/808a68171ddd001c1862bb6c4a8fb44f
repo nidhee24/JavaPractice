@@ -1,0 +1,26 @@
+package com.cgi.com;
+
+import java.util.LinkedList;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LinkedList<String> countries = new LinkedList<>();
+		countries.add("India");
+		countries.add("Canada");
+		countries.add("USA");
+		countries.add("Russia");
+		
+		new App().printList(countries);
+	}
+	
+	void printList(LinkedList<String> list) {
+		for(String element: list) {
+			System.out.println("Element: "+element);
+		}
+		System.out.println("*****************************");
+	}
+
+}

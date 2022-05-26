@@ -1,0 +1,18 @@
+
+public class App {
+
+class intWrapper{
+	public int intValue;
+
+	public intWrapper(int intValue) {
+		this.intValue = intValue;
+	}
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}

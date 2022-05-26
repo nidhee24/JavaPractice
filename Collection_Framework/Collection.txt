@@ -1,0 +1,31 @@
+Collections: The Java Collections Framework is a collection of interfaces and classes
+which make it easier for storing and processing collection of objects efficiently.
+
+Advantages:
+1. No third party API required
+2. No need to create API from handling collection objects
+3. Collection Framework is tested and optimized.
+
+ArrayList:
+list has property to modify the size like add, remove from list and arraylist is a type of list
+ArrayList is similar to array has index and data, arraylist are slow when we remove or add because new array will created.
+and tends to acquire more memory.
+but accessing information is fast and can be access from any location
+
+
+Stack:
+LIFO manner,
+extends class Vector
+Vector is similar to ArrayList but Vector method are synchronized but ArrayList method are not synchronized
+
+LinkedList:
+as name suggest this list is linked with one another.
+nodes contains data which linked to other nodes.
+Nodes is memory chunks
+
+- node contains data and address of other node
+
+- last node has no further linked address
+
+
+IMP: Linkedlist is memory efficient and ArrayList is speed efficient.

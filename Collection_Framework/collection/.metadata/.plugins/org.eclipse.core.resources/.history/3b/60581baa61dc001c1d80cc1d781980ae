@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class App {
+
+	static ArrayList<String> listNames = new ArrayList<>();
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		listNames.add("Nidhi");
+		listNames.add("Jeni");
+		listNames.add("Meet");
+		listNames.add("Manya");
+		
+	}
+	
+	
+	void removeNameByString(String name) {
+		
+		
+		
+	}
+}

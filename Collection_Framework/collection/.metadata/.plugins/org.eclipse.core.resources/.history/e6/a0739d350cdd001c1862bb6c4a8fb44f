@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+class intWrapper{
+	public int intValue;
+
+	public intWrapper(int intValue) {
+		this.intValue = intValue;
+	}
+
+	public int getIntValue() {
+		return intValue;
+	}
+
+	public void setIntValue(int intValue) {
+		this.intValue = intValue;
+	}
+		
+}
+public class App {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<intWrapper> studentNumbers = new ArrayList<>();
+		studentNumbers.add(new intWrapper(12));
+	}
+
+}
