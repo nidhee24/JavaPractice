@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -21,6 +22,11 @@ public class App {
 		//sorting
 		System.out.println("****************************");
 		countries.sort(null);
+		new App().displayList(countries);
+		
+		System.out.println("****************************");
+		Collections.reverse(countries);
+		new App().displayList(countries);
 	}
 	
 	//ListIterator interface can also be use to iterate list 
