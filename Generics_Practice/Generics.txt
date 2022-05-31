@@ -1,0 +1,21 @@
+Generic programming:
+
+Facilitates to create generic class, methods and everything
+
+Advantages:
+1. reusability
+2. stronger type checking, better type safety (reduced run time error)
+3. Eliminate type casting statements (improve program's performance)
+
+**********************************************************************************************		
+GenericClass<String> genericData = new GenericClass<String>("Some data");
+String data  =  genericData.getData();
+System.out.println(data);
+
+Advantages of creating generic class as above:
+- type casting is no longer required
+- type safety eg. if data is string and if we passed Integer then run time error occurs same as visa versa
+
+So, in production where there is big source code then this type of error creates disaster
+   eg: Data data = new Data(1)
+       String var = (String)data.getObj()  // from GenericPartOne project
