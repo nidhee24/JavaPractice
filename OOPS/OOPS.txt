@@ -1,0 +1,10 @@
+constructor:
+usage:
+if we check example from attached project, there is setter/getter, constructor, run(), but if we remove
+constructor then we need to manually utilize that properties.
+
+eg, if we set one value of property but still it will give error so best way to initialize value is constructor.
+By using constructor we can get rid of setter and there is no way to set value so in order to set value there is only 2 ways
+like default constructor or parameterized constructor.
+
+power of constructor is that we can apply restriction of how to initialize the values.

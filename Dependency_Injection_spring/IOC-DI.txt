@@ -1,0 +1,19 @@
+
+suppose we have class 
+
+class Test { 
+void display();
+}
+
+and if we create obj
+Test t = new Test()
+
+so using this obj we can access properties and function of class
+
+
+Suppose if there is a situation of interface and implementing by number of classes and in such scenario 
+the above conecpt is not appropriate. or if we want to do component base then it is unappropriate.
+
+So, we have a spring solution by which we can outsource the process of object creation and we need not have to
+use new keyword and entire process is outsourced and control is given to spring so it is known as
+Inversion of Control.
