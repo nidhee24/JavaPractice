@@ -1,0 +1,78 @@
+Variables and datatypes:
+
+Ranges:
+
+integer datatype:
+max value for int is 2147483647
+min value for int is -2147483648
+
+short datatype:
+max value is 32767
+min value is -32768
+
+short is int compatible datatype
+
+
+long datatype:
+max: 9223372036854775807L
+min: -9223372036854775808L
+
+byte datatype:
+max: 127
+min: -128
+
+Unicode:
+how to print unicode:
+char var1  = '\u_followed by unicode number____'
+
+Bigdecimal:
+In order to rounding off decimal value use BigDecimal
+
+BigDecimal d1 = new BigDecimal("1.05")
+BigDecimal d2 = new BigDecimal("2.55")
+output d1.add(d2) = 3.6
+
+For String datatype, 
+if int var1= 10
+String var2 = "20"
+var1+var2 = 30 if string concatenate with int then it converts to int
+which is called type casting
+
+String can be also declared as 
+String var2 = new String("Hello World")
+
+Type Casting: Conversion from one data type to another.
+Implicit type casting is where type casting is done automatically
+eg, short x = 5;
+    int y = x
+    sysout(y)
+
+but vice versa is not possible amd will give an error
+
+Implicit Typecasting:
+byte->short->int->long->float->double
+- datatype should be compaitible
+- situation should be widening situation, eg, 8 bit -> 16 bit -> 32 bit and so
+
+Explicit Typecasting:
+double->float->long->int->short->byte
+- narrowing situation
+eg: 
+int y = 10
+short x = (byte) y
+sysout(x)
+
+When to use which datatype:
+Double:
+- Any general scenario, where floating point number is required
+- Any operation where output can be floating point number
+- Any high precision is required
+
+Float:
+- If there is requirement of less precision value
+
+Int: 
+- Any general scenario where output will be integer entity
+
+Long:
+- Occasions where an int type is not large enough

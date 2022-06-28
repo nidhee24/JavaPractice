@@ -1,0 +1,14 @@
+
+Operators:
+Operators are entities which helps us to perform some operations
+Type:
+
+1. = : this operator assign value to variable and assignment would be done
+from right to left.
+2. + : use to add or concatenate 2 entities (L to R).
+3. - : use to substract
+4. * : for multiplication
+5. %: modulus operator will give you value of reminder after the operation
+of Division
+6. ++: increment
+7. -- : decrement
